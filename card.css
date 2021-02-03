@@ -1,0 +1,169 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+
+}
+
+hr{
+  border: 2px solid #f4f4f4;
+  border-top: none;
+}
+
+.circle-top{
+  position: absolute;
+  left:-350px;
+  top: -600px;
+
+}
+
+.circle-bottom{
+  position: absolute;
+  right:-350px;
+  bottom: -120%;
+
+}
+
+.card{
+  background-color: white;
+  border-radius: 3%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  position: relative;
+  top: 100px;
+  z-index: 0;
+}
+
+.head-bg{
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+
+}
+
+.card-stats{
+  display: flex;
+  justify-content: space-around;
+}
+
+#pic{
+  border-radius: 50%;
+  border:3px solid white;
+  background-color: white;
+
+}
+.card-pic{
+  position: absolute;
+  left:125px;
+  top: 100px;
+
+}
+
+.card-identity{
+  padding-top: 70px;
+}
+
+.card-identity .card-title{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-identity .location{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color:hsl(227, 10%, 46%);
+  font-size: 15px;
+}
+
+i{
+  color:hsl(227, 10%, 46%);
+}
+
+.column .card-title{
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.stats-text{
+
+  padding-bottom: 25px;
+  color:hsl(227, 10%, 46%);
+  font-weight:300;
+  font-size: 0.6rem;
+  letter-spacing: 2.2px;
+}
+
+@media (max-width:1054px) {
+  .circle-top{
+    position: absolute;
+    left:-450px;
+    top: -600px;
+
+  }
+
+  .circle-bottom{
+    position: absolute;
+    right:-450px;
+    bottom: -120%;
+
+  }
+
+}
+
+@media (max-width:950px) {
+  .circle-top{
+    position: absolute;
+    left:-550px;
+    top: -600px;
+
+  }
+
+  .circle-bottom{
+    position: absolute;
+    right:-550px;
+    bottom: -120%;
+
+  }
+
+}
+
+@media (max-width:743px) {
+  .circle-top{
+    position: absolute;
+    left:-650px;
+    top: -600px;
+
+  }
+
+  .circle-bottom{
+    position: absolute;
+    right:-650px;
+    bottom: -120%;
+
+  }
+
+}
+
+@media (max-width:580px) {
+  .circle-top{
+    position: absolute;
+    left:-750px;
+    top: -600px;
+
+  }
+
+  .circle-bottom{
+    position: absolute;
+    right:-700px;
+    bottom: -120%;
+
+  }
+
+}
